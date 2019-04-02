@@ -1,0 +1,71 @@
+Numpy 中 broadcast 的主要概念是？
+將一個多維數組（n-dimension array）與另一個相同尺寸多維數組進行算術操作
+將一個多維數組（n-dimension array）與另一個相同尺寸多維數組進行算術操作
+將一個多維數組（n-dimension array）與另一個數字進行算術操作
+將一個一維數組（n-dimension array）與另一個數字進行算術操作
+將一個多維數組（n-dimension array）與另一個不同維數組進行算術操作
+
+假設在 numpy array L 中有不同的 0-1 之間之小數，如何取得少於 0.2 的所有數字？
+L[L<0.2]
+L[L<0.2]
+L<0.2
+L = [L<0.2 ]
+L = L<0.2
+
+How does iterator/generator knows it reaches the end?
+By raising StopIteration error
+By raising StopIteration error
+By raising EndIteration error
+By raising EndError
+By raising StopError
+
+Iterator 通過哪個 double-underscore method 來決定下一個數值？
+`__next__`
+`__next__`
+`__iter__`
+`__value__`
+`__init__`
+
+在 Generator 中，使用以下哪個指令可以生成下一個數值？
+yield value
+yield value
+gen value
+generate value
+next value
+
+如果想找出主內容下的所有 a 連結，應使用以下哪一個選取器（Selector）？
+main a
+main a
+main > link
+body a
+body > link
+
+如果自定義了一個新的數據類別（Class），希望定義兩者相加的處理方法，應使用哪個 dunder method?
+`__add__`
+`__add__`
+`__eq__`
+`__ne__`
+`__mul__`
+
+如果自定義了一個新的數據類別（Class），希望定義兩者相減的處理方法，應使用哪個 dunder method?
+`__sub__`
+`__sub__`
+`__eq__`
+`__ne__`
+`__mul__`
+
+如果希望自定義的類別能支援 Python 的 `with` 寫法：
+`__enter__` 及 `__exit__`
+`__enter__` 及 `__exit__`
+`__init__` 及 `__exit__`
+`__prepare__` 及 `__exit__`
+`__init__` 及 `__del__`
+
+如果希望自定義列印類別時的字句，應使用哪個 dunder method?
+`__repr__`
+`__repr__`
+`__abs__`
+`__len__`
+`__call__`
+
+
